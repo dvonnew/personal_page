@@ -1,3 +1,6 @@
+
+import soccer from './images/soccer.jpeg'
+import theBoys from './images/theboys.jpeg'
 import us from './images/dweebandme.jpeg'
 import dog from './images/sasha.jpeg'
 import teton1 from './images/teton.jpeg'
@@ -26,7 +29,7 @@ class DOMcontroller {
     createImageSlider(){
         const imageSlider = document.querySelector('.image-slider')
         const imageNavBar = document.querySelector('.image-nav-bar')
-        const pictures = [us, dog, teton1, teton2, skiing]
+        const pictures = [theBoys, soccer, us, dog, teton1, teton2, skiing]
         const next = document.querySelector('.next')
         const prev = document.querySelector('.prev')
 
